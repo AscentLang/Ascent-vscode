@@ -1,0 +1,74 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "ascent",
+    "scopeName": "source.ascent",
+    "patterns": [
+        {
+            "name": "keyword.control.function.ascent",
+            "match": "\\bfunction\\b"
+        },
+        {
+            "name": "entity.name.function.ascent",
+            "match": "\\bfunction\\s+(\\w+)"
+        },
+        {
+            "name": "storage.type.ascent",
+            "match": "\\bvar"
+        },
+        {
+            "name": "keyword.control.ascent",
+            "match": "\\bfor|while\\b"
+        },
+        {
+            "name": "keyword.control.ascent",
+            "match": "\\breturn\\b"
+        },
+        {
+            "name": "keyword.operator.assignment.ascent",
+            "match": "="
+        },
+        {
+            "name": "constant.numeric.ascent",
+            "match": "\\b\\d+\\b"
+        },
+        {
+            "name": "punctuation.definition.comment.ascent",
+            "match": "//",
+            "begin": "//",
+            "end": "$"
+        },
+        {
+            "name": "punctuation.separator.parameter.ascent",
+            "match": ","
+        },
+        {
+            "name": "punctuation.terminator.statement.ascent",
+            "match": ";"
+        },
+        {
+            "name": "keyword.operator.arithmetic.ascent",
+            "match": "[+\\-*/%]"
+        },
+        {
+            "name": "keyword.operator.comparison.ascent",
+            "match": "==|!=|<=|>=|<|>"
+        },
+        {
+            "name": "keyword.operator.logical.ascent",
+            "match": "&&|\\|\\||!"
+        },
+        {
+            "name": "keyword.operator.bitwise.ascent",
+            "match": "&|\\||\\^|~|<<|>>"
+        },
+        {
+            "name": "keyword.operator.assignment.compound.ascent",
+            "match": "[+\\-*/%]=|&=|\\|=|\\^=|<<=|>>="
+        },
+        {
+            "name": "keyword.operator.increment-decrement.ascent",
+            "match": "\\+\\+|\\-\\-"
+        }
+    ],
+    "repository": {}
+}
